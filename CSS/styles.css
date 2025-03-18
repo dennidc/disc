@@ -1,0 +1,279 @@
+@font-face {
+    font-family: 'Lilita One';
+    src: url(fonts/LilitaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans-Medium';
+    src: url(fonts/OpenSans-Medium.ttf);
+}
+:root{
+    --blanco: #ffff;
+    --negro: #000000;
+    --disc: #5865F2;
+    --gris: #23272A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'OpenSans-Medium';
+}
+
+header {
+    padding: 20px 0;
+    background-color: var(--disc);
+}
+
+.principal{
+    background-color: var(--disc);
+}
+
+
+.menu, .segundo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0 90px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+    margin-right: 10px;
+}
+
+.links{
+    font-size: 16px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.links a {
+    color: var(--blanco);
+    text-decoration: none;
+}
+
+.login{
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: var(--blanco);
+}
+
+.login a{
+    color: var(--negro);
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    padding: 0 260px;
+}
+
+.img1-tamanio{
+    width: 500px;
+    height: auto;
+}
+
+.letras{
+    font-size: 24px;
+    line-height: 1.3;
+    max-width: 430px;
+    color: var(--blanco);
+}
+
+.letras h1{
+    font-family: 'Lilita One';
+    margin-bottom: 55px;
+}
+
+.letras p{
+    font-size: 16px;
+}
+
+/* empieza la segunda seccion */
+.segundo{
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+/* SECCION NÚMERO 1 DE SEDUNDO */
+.cont1 h2{
+    font-family: 'Lilita One';
+    margin-bottom: 20px;
+}
+
+.cont1 p{
+    line-height: 1.5;
+}
+
+/* SECCION NÚMERO 2 DE SEGUNDO*/
+
+/* estido de titulo con parrafo imagen-video */
+.cont2{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+/* -------------------- */
+
+.cont2 img{
+    width: 400px;
+    margin-right: 5px;
+    padding: 20px;
+}
+
+/* --------- */
+.cont3{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+/* -------------------- */
+
+.cont3 img{
+    width: 400px;
+    margin-right: 5px;
+    padding: 20px;
+}
+
+.texto2{
+    max-width: 530px;
+    text-align: justify;
+}
+
+/* parrafos y titulos */
+.titu{
+    font-family: 'Lilita One';
+    margin-bottom:20px;
+    font-size: 30px;
+}
+
+.parrafo{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* SECCIÓN 3 DE SEDUNGO */
+
+
+.cont3 img{
+    width: 400px;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+/* SECCIÓN 4 DE SEDUNGO */
+
+
+
+#contenedor{
+    border: 3px var(--disc) solid;
+    border-radius: 15px;
+}
+
+#video{
+    border-radius: 15px;
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 25px;
+    left: 20px;
+}
+
+.conte2{
+    display: flex;
+    margin-top: 50px;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc-video h2{
+    width: 45%;
+    padding-left: 20px;
+}
+
+.desc-video p{
+    width: 45%;
+    padding-left: 20px;
+}
+
+/* seccion del segundo video */
+
+.video2{
+    padding: 100px 200px;
+    background-color: var(--negro);
+}
+
+.fondo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+    background-color: var(--gris);
+    border-radius: 15px;
+    gap: 50px
+
+}
+
+.t1, .t2{
+    color: var(--blanco);
+}
+
+.txt{
+    margin-bottom: 150px;
+    line-height: 1.3;
+    max-width: 400px;
+}
+
+footer{
+    max-width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--gris);
+    align-items: center;
+}
+
+.logo2 {
+    display: flex;
+    align-items: center;
+}
+
+.logo2 img {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.redes{
+    display: flex;
+    gap: 15px;
+}
+
+.redes a{
+    color: var(--blanco);
+    text-decoration: none;
+    display: inline-block
+}
+
+#icomenu{
+    display: none;
+    color: var(--blanco);
+    font-size: 30px;
+}
+

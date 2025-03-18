@@ -1,0 +1,109 @@
+:root{
+    --blanco: #ffff;
+    --negro: #000000;
+    --disc: #5865F2;
+    --gris: #23272A;
+}
+
+@media screen and (max-width: 480px) {
+
+header{
+    background-color: var(--gris);
+    padding: 0px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#icomenu{
+    display: block;
+}
+
+.logo img {
+    width: 150px;
+    margin-right: 10px;
+}
+header nav .links{
+    display: none;
+}
+
+.login{
+    display: none;
+}
+
+.menu{
+    padding: 10px 20px;
+}
+
+.container{
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.img1-tamanio{
+    width: 400px;
+    height: auto;
+}
+
+/* empieza seccion segundo */
+.segundo{
+    padding: 20px;
+}
+
+.cont2{
+    flex-direction: column-reverse;
+}
+
+.cont3{
+    flex-direction: column;
+}
+
+.conte2{
+    flex-direction: column-reverse;
+    margin: 0;
+    gap: 20px;
+}
+
+#contenedor{
+    border: 0px;
+}
+
+#video{
+    top: 0px;
+    left: 0px;
+}
+
+.desc-video h2{
+    width: 100%;
+    padding-left: 20px;
+}
+
+.desc-video p{
+    width: 100%;
+    padding-left: 20px;
+}
+
+.video2{
+    padding: 0px;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+
+.fondo{
+    flex-direction: column;
+    border-radius: 0;
+    gap: 0;
+}
+.txt{
+    margin-bottom: 50px;
+
+}
+
+footer{
+    flex-direction: column;
+}
+
+}
+
